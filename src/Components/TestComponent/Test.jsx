@@ -1,10 +1,8 @@
 import React from "react";
 
-const Test = () => {
+const Test = (props) => {
     return (
-        <div>
-            Test
-        </div>
+        <div>Test {props}</div>
     )
 
 }
